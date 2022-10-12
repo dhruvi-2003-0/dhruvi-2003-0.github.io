@@ -1,0 +1,171 @@
+/*  */
+
+body {
+  font-family: Arial, cursive, sans-serif;
+  font-size: 15px;
+  font-stretch: semi-expanded;
+  font-weight: 700;
+}
+
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+
+#justin {
+  background-color: #D9BCA3
+}
+#ariana {
+  background-color: #e7abff
+}
+#chase {
+  background-color: #9e9d9d
+}
+#dhillon {
+  background-color: #cff9ff
+}
+header {
+  background-color: #594F46;
+  color:#eee;
+  /* margin-bottom: 0.5em; */
+  padding: 2em;
+  text-align: center;
+  /* border-bottom-style: double;
+  border-top-style: double;
+  border-width: 1em; */
+}
+
+h1 {
+  font-size: 2.5em;
+  font-family: times, serif;
+  text-transform: uppercase;
+}
+
+header h2{
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+header h3{
+  text-transform: capitalize;
+}
+
+body h2{
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 0.5em;
+  background: #eee
+}
+
+nav a:link{
+  background: #eee;
+  color: #333;
+  padding: 0.5em 1em;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:visited{
+  color: #777
+}
+
+nav a.current {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+nav a:active{
+  background: #555;
+  color: #eee
+}
+
+article{
+  max-width: 1000px;
+  width: 100%;
+  margin: 40px  auto;
+}
+
+.col3 {
+  column-count: 3;
+  column-gap: 2em;
+}
+
+.col3 h2{
+  text-align: left;
+  column-span: all;
+  margin-top: 0;
+}
+
+figure img{
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+
+p {
+  margin-bottom: 0;
+  margin-top: 1.5em;
+  line-height: 1.2em;
+  font-style: italic;
+  font-style: oblique;
+}
+
+p.pull_quote{
+  border-left: solid 0.3em #333;
+  padding: 1em;
+  margin: 0 2em 0.4em;
+  font-size: 2em;
+  font-family: serif, times, georgia;
+  font-style: italic;
+  background: url(../images/bg.jpg) fixed;
+}
+
+p.pull_quote::before{
+  content: '“'
+}
+
+p.pull_quote::after{
+  content: '”'
+}
+
+article a:link{
+  color: #fff
+}
+
+article a:visited{
+  color: #eee
+}
+
+article a:hover{
+  color: #333
+}
+
+section.divider {
+  text-align: center;
+  background: url(../images/bg.jpg) fixed;
+  background-size: cover;
+  padding: 4em;
+  margin-bottom: 1em;
+}
+
+section.divider h1{
+  color: #eee;
+  font-family: Helvetica;
+  text-shadow: 3px 3px 0 black;
+}
+
+footer{
+  background-color: #594F46;
+  color:#eee;
+  margin-top: 1em;
+  padding: 0.5em;
+  text-align: right;
+  border-top: double 0.5em #eee;
+}
