@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+nav {
+  text-align: center;
+  background: #000
+}
+
+nav a:link{
+  background: #000;
+  color: #eee;
+  padding: 0.5em 2em;
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+nav a:visited{
+  color: #c2fcd2
+}
+
+nav a.current {
+  color: #a3daff;
+  font-family: serif;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+nav a:active{
+  background: #555;
+  color: #eee
+}
+
+h1 {
+  font-family: 'Fjalla One',cursive;
+  font-size: 7vmax;
+  line-height: 100%;
+  text-transform: uppercase;
+  border-bottom: double 10px;
+  margin-bottom: 0.2em;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, .75);
+}
+
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  color: beige;
+  font-family: 'fjalla one';
+  text-decoration: underline;
+}
+
+h3 {
+  text-transform: capitalize;
+  font-size: 3vmax;
+  font-family: 'Fjalla One',cursive;
+}
+
+header {
+  text-align: center;
+  background: url(../images/bg3.jpg) fixed center top repeat;
+  background-size: cover;
+  color: white;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background: #000;
+}
+
+
+.text {
+  padding: 2em;
+  display: flex;
+  flex-flow: row;
+  justify-content: flex-end;
+}
+
+ .bio {
+   font-family: verdana;
+   font-size: 18px;
+   background: #000;
+   color: #eee;
+   min-height: 70vh;
+   width: 100%;
+   padding: 2em;
+   margin: 2em #eee;
+   margin-left: 2em;
+   max-width: 400px;
+   min-width: 200px;
+   box-shadow: 4px 4px 10px white;
+   height: auto;
+   padding: 2em;
+}
+
+.bio img {
+  padding: 1em;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hobby {
+  font-family: verdana;
+  font-size: 18px;
+  background: #000;
+  color: #eee;
+  width: 100%;
+  padding: 2em;
+  margin: 2em #eee;
+  margin-left: 2em;
+  max-width: 400px;
+  min-width: 200px;
+  box-shadow: 4px 4px 10px white;
+  height: auto;
+  padding: 2em;
+}
+
+.hobby img {
+  padding: 1em;
+}
+
+.experiences {
+  font-family: verdana;
+  font-size: 18px;
+  background: #000;
+  color: #eee;
+  width: 100%;
+  padding: 2em;
+  margin: 2em #eee;
+  margin-left: 2em;
+  max-width: 400px;
+  min-width: 200px;
+  box-shadow: 4px 4px 10px white;
+  height: auto;
+  padding: 2em;
+}
+
+.experiences img {
+  padding: 1em;
+}
+
+.container {
+  background-color: black;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.centered {
+  position: absolute;
+  font-family: 'fjalla one';
+  font-size: 60px;
+  text-transform: uppercase;
+  color: beige;
+  text-shadow: 4px 4px 5px black;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.gallery img {
+  opacity:50%;
+}
+
+figure {
+  flex: 1;
+  min-width: 200px;
+}
+
+figure img{
+width: 100%;
+}
+
+.col2 {
+  column-count: 2;
+  column-gap: normal;
+}
+
+.p1 h2 {
+  padding: 1em;
+}
+
+.p3 h2 {
+  padding: 1em;
+}
+
+.p1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 1em
+}
+
+.p2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  padding: 2em
+}
+
+.p3 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 2em
+}
+
+.p4 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  padding: 2em
+}
+
+.fproj1 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding: 2em
+}
+
+.fproj2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding: 2em
+}
